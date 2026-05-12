@@ -1,21 +1,21 @@
 # Brute-Force-Attack-Simulation-with-Hydra
-Brute Force Attack Simulation with Hydra
-A personal cybersecurity project exploring password vulnerabilities through hands on brute-force attack simulation using Hydra on a controlled local web environment.
+ Brute Force Attack Simulation with Hydra
+A personal cybersecurity project exploring password vulnerabilities through hands on brute force attack simulation using Hydra on a controlled local web environment.
 
-Overview
-This project demonstrates how weak passwords can be compromised using automated tools. By setting up a local login target and running Hydra against it, I was able to observe firsthand how quickly common passwords fall to dictionary-based attacks and why strong password policies matter.
+ Overview
+This project demonstrates how weak passwords can be compromised using automated tools. By setting up a local login target and running Hydra against it, I was able to observe firsthand how quickly common passwords fall to dictionary based attacks and why strong password policies matter.
 Key concepts covered:
 
-How brute force and dictionary attacks work
-Setting up and configuring Hydra for HTTP form based attacks
+How brute-force and dictionary attacks work
+Setting up and configuring Hydra for HTTP form-based attacks
 Analyzing attack results and identifying vulnerable credentials
 Understanding why generic error messages and account lockouts are critical defenses
 
 
- Tools & Environment
+Tools & Environment
 ToolPurposeHydraAutomated password cracking / brute-force toolLinux (Xfce)Lab operating systemLocal HTTP server (port 8080)Target login pageCustom wordlistsUsername and password dictionaries
 
-Methodology
+ Methodology
 1. Manual Reconnaissance
 Before running any automated tools, I manually tested a few common credential combinations (admin/admin, test/password123) against the login form to understand its behavior. The server returned a generic "Invalid username or password" response for all failed attempts — intentionally vague to avoid leaking whether the username itself is valid.
 2. Preparing the Wordlists
