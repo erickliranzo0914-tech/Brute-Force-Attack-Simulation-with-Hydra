@@ -69,7 +69,7 @@ Monitor for login anomalies — alert on high-volume failed attempts from the sa
  Disclaimer
 This project was conducted entirely in a controlled, isolated lab environment against a locally hosted target. All techniques demonstrated here are for educational purposes only. Unauthorized use of tools like Hydra against systems you do not own or have explicit permission to test is illegal and unethical.
 
-📚 References
+ References
 
 Hydra GitHub Repository
 OWASP Brute Force Attack
